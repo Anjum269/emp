@@ -1,14 +1,12 @@
-import pytest
-
 def employee_details(name, emp_id, department, salary):
-    result = {
-        "Employee Name": name \n,
-        "Employee ID": emp_id \n,
-        "Department": department \n,
-        "Salary": salary \n
-    }
+    result = (
+        f"Employee Name: {name}\n"
+        f"Employee ID: {emp_id}\n"
+        f"Department: {department}\n"
+        f"Salary: {salary}\n"
+    )
     return result
-
+ 
 if __name__ == "__main__":
     # sample input
     name = "Alice"
@@ -17,3 +15,4 @@ if __name__ == "__main__":
     salary = 55000
 
     print(employee_details(name, emp_id, department, salary))
+ 
