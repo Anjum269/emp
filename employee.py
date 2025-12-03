@@ -2,10 +2,10 @@ import pytest
 
 def employee_details(name, emp_id, department, salary):
     result = {
-        "Employee Name": name,
-        "Employee ID": emp_id,
-        "Department": department,
-        "Salary": salary
+        "Employee Name": name \n,
+        "Employee ID": emp_id \n,
+        "Department": department \n,
+        "Salary": salary \n
     }
     return result
 
